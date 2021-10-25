@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos Uninter</title>
+<!--Comando do Bootstrap para a inicialização da tabela-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+  </head>
+<body>
+ <!--Inicio da lista de Alunos usando o bootstrap-->
+    <table class="table">
+        <thead>
+          <tr><!--Definido quais os campos seram mostrados na tela-->
+            <th scope="col">RU</th><!--RU de oito caracteris-->
+            <th scope="col">Nome</th><!--Nome do Aluno na instituição-->
+            <th scope="col">Curso</th><!--O curso que está fazendo-->
+            <th scope="col">Data de Nascimento</th><!--Data de nascimento do mesmo-->
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr><!--INFORMAÇÕES QUE IRAM PARA A TABELA (CRIADO 5 ALUNOS)-->
+            <th scope="row">3311886</th>
+            <td>Tallis Vozniack</td>
+            <td>Análise e desenvolvimento de sistemas</td>
+            <td>19/05/2000</td>
+          </tr>
+          <tr>
+            <th scope="row">2255489</th>
+            <td>Jacob Kogge</td>
+            <td>Literatura</td>
+            <td>15/02/1998</td>
+          </tr>
+          <tr>
+            <th scope="row">8899552</th>
+            <td>Larissa Borek </td>
+            <td>Português</td>
+            <td>18/03/1999</td>
+          </tr>
+          <tr>
+            <th scope="row">1155664</th>
+            <td>Tereza Fonseca </td>
+            <td>Sociologia</td>
+            <td>18/09/1999</td>
+          </tr>
+          <tr>
+            <th scope="row">5566998</th>
+            <td>Katia Aparecida</td>
+            <td>Matemática</td>
+            <td>10/06/2000</td>
+          </tr>
+        </tbody>
+      </table>
+  <!--Fim da tabela -->
+    
+</body>
+</html><DOCTYPE html>
+</DOCTYPE>
+
